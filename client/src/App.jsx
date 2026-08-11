@@ -36,8 +36,26 @@ function App() {
           'line-cap': 'round'
         },
         paint: {
-          'line-color': '#FFC72C',
-          'line-width': 3
+          'line-opacity': 0.65,
+          'line-width': 4,
+          'line-color': [
+            'match',
+            ['get', 'name'],
+            'Ashton', '#00A3E0',
+            'Bury', '#00985F',
+            'Chorlton', '#E5007D',
+            'East Didsbury', '#E5007D',
+            'Eccles', '#00A3E0',
+            'Manchester Airport', '#30549C',
+            'MediaCity Spur', '#00A3E0',
+            'Oldham Town Centre', '#E5007D',
+            'Oldham and Rochdale', '#E5007D',
+            'Piccadilly Spur', '#F0B400',
+            'Rochdale Town Centre', '#E5007D',
+            'Second City Crossing', '#F0B400',
+            'Trafford', '#E31B23',
+            '#F0B400'
+          ]
         }
       });
 
