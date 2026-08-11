@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="w-full h-full relative">
-      <div ref={mapContainer} className="absolute inset-0" />
+      <div ref={mapContainer} className="w-full h-screen" />
       <div className="absolute top-4 left-4 z-10 bg-white p-4 rounded shadow-md pointer-events-auto">
         <h1 className="text-xl font-bold">Metrolink Live Map</h1>
       </div>
